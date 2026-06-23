@@ -1,9 +1,13 @@
 {
     "words": {
+        "afos": {
+            "type": "noun-bc-n",
+            "meaning": "gold, money",
+            "related": ["rejal"]
+        },
         "tila": {
             "type": "noun-fr-n",
             "meaning": "house, nation",
-            "etymology": "N/a",
             "related": ["tilager", "memtila"],
             "examples": [
                 "Içer Elije hik tilatek"

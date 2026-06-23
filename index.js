@@ -2,7 +2,7 @@ let params = new URLSearchParams();
 
 let dictionary = {};
 
-fetch("https://okynlejelevedlen.github.io/EleuedDictionary/res/words.json")
+fetch("./res/words.json")
     .then(response => response.json())
     .then(data => {
         dictionary = data.words;
@@ -23,7 +23,6 @@ function search() {
 
     resultDiv.innerHTML = `
         <h2>${query}</h2>
-        <p><strong>Type:</strong> ${word.type}</p>
         <p><strong>Meaning:</strong> ${word.meaning}</p>
         <p><strong>Etymology:</strong> ${word.etymology}</p>
         <p><strong>Related:</strong> ${word.related.join(", ")}</p>
