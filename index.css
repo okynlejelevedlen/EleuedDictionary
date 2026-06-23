@@ -1,12 +1,12 @@
 @font-face {
   font-family: EBGar; /* set name */
-  src: url("./EB_Garamond/EBGaramond-VariableFont_wght.ttf"); /* url of the font */
+  src: url("./res/EB_Garamond/EBGaramond-VariableFont_wght.ttf"); /* url of the font */
   weight: 400;
 }
 
 @font-face {
     font-family: EBGarIt;
-    src: url("./EB_Garamond/EBGaramond-Italic-VariableFont_wght.ttf");
+    src: url("./res/EB_Garamond/EBGaramond-Italic-VariableFont_wght.ttf");
 }
 
 html {
