@@ -24,11 +24,6 @@ function search() {
     resultDiv.innerHTML = `
         <h2>${query}</h2>
         <p><strong>Meaning:</strong> ${word.meaning}</p>
-        <p><strong>Etymology:</strong> ${word.etymology}</p>
         <p><strong>Related:</strong> ${word.related.join(", ")}</p>
-        <p><strong>Examples:</strong></p>
-        <ul>
-            ${word.examples.map(ex => `<li>${ex}</li>`).join("")}
-        </ul>
     `;
 }
