@@ -32,7 +32,6 @@ function search() {
             continue;
         }  
     }
-    localStorage.setItem("word", results)
     
     displayResults(results)
 }
@@ -53,9 +52,3 @@ function displayResults(results) {
         </div>
     `).join("");
 }
-
-window.addEventListener('load', (event) => {
-    if (!localStorage.getItem("word")) {
-        displayResults(localStorage.getItem("word"))
-    }
-});

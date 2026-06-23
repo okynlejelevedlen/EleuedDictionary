@@ -1,12 +1,67 @@
 {
     "words": {
         "afos": {
-            "type": "noun-bc-n",
+            "type": "noun-bcn-n",
             "meanings": ["gold", "money"],
             "related": ["rejal"]
         },
+        "ahgzert": {
+            "type": "noun-frn-n",
+            "meanings": ["large farm"],
+            "related": ["açer"]
+        },
+        "anykur": {
+            "type": "noun-bcn-n",
+            "meanings": ["green plant", "plant"],
+            "related": []
+        },
+        "açer": {
+            "type": "noun-frn-n",
+            "meanings": ["farm"],
+            "related": ["ahgzert"]
+        },
+        "bebidhe": {
+            "type": "noun-frv-n",
+            "meanings": ["honour"],
+            "related": ["bepidh"]
+        },
+        "bepidh": {
+            "type": "noun-frn-n",
+            "meanings": ["strength"],
+            "related": ["bebidhe"]
+        },
+        "caleta": {
+            "type": "noun-frv-n",
+            "meanings": ["field"],
+            "related": ["açer", "ahgzert"]
+        },
+        "dhojovoz": {
+            "type": "noun-bcv-n",
+            "meanings": ["praise", "love-sayings"],
+            "related": ["Dhon", "jeve", "jazok"]
+        },
+        "Dhon": {
+            "type": "noun-bcv-n",
+            "meanings": ["God"],
+            "related": ["dhojovoz", "dhonla"]
+        },
+        "dhonla": {
+            "type": "noun-bcv-n",
+            "meanings": ["Heaven"],
+            "related": ["Dhon", "lala"]
+        },
+        "domno": {
+            "type": "noun-bcv-n",
+            "meanings": ["Lord (feudal lord)", "lord"],
+            "related": []
+        },
+        "siñere": {
+            "type": "noun-frv-m",
+            "meanings": ["lord"],
+            "related": []
+        },
         "tila": {
-            "type": "noun-fr-n",
+            "type": "noun-frv-n",
             "meanings": ["house", "nation"],
             "related": ["tilager", "memtila"],
             "examples": [
