@@ -1,57 +1,57 @@
 {
     "words": {
         "afos": {
-            "type": "noun-bcn-n",
+            "type": "noun-bcn",
             "meanings": ["gold", "money"],
             "related": ["rejal"]
         },
         "ahgzert": {
-            "type": "noun-frn-n",
+            "type": "noun-frn",
             "meanings": ["large farm"],
             "related": ["açer"]
         },
         "anykur": {
-            "type": "noun-bcn-n",
+            "type": "noun-bcn",
             "meanings": ["green plant", "plant"],
             "related": []
         },
         "açer": {
-            "type": "noun-frn-n",
+            "type": "noun-frn",
             "meanings": ["farm"],
             "related": ["ahgzert"]
         },
         "bebidhe": {
-            "type": "noun-frv-n",
+            "type": "noun-frv",
             "meanings": ["honour"],
             "related": ["bepidh"]
         },
         "bepidh": {
-            "type": "noun-frn-n",
+            "type": "noun-frn",
             "meanings": ["strength"],
             "related": ["bebidhe"]
         },
         "caleta": {
-            "type": "noun-frv-n",
+            "type": "noun-frv",
             "meanings": ["field"],
             "related": ["açer", "ahgzert"]
         },
         "dhojovoz": {
-            "type": "noun-bcv-n",
+            "type": "noun-bcv",
             "meanings": ["praise", "love-sayings"],
             "related": ["Dhon", "jeve", "jazok"]
         },
         "Dhon": {
-            "type": "noun-bcv-n",
+            "type": "noun-bcv",
             "meanings": ["God"],
             "related": ["dhojovoz", "dhonla"]
         },
         "dhonla": {
-            "type": "noun-bcv-n",
+            "type": "noun-bcv",
             "meanings": ["Heaven"],
             "related": ["Dhon", "lala"]
         },
         "domno": {
-            "type": "noun-bcv-n",
+            "type": "noun-bcv",
             "meanings": ["Lord (feudal lord)", "lord"],
             "related": []
         },
@@ -61,7 +61,7 @@
             "related": []
         },
         "tila": {
-            "type": "noun-frv-n",
+            "type": "noun-frv",
             "meanings": ["house", "nation"],
             "related": ["tilager", "memtila"],
             "examples": [
