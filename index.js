@@ -12,18 +12,50 @@ fetch("./res/words.json")
 function search() {
     const query = document.getElementById("search").value.trim().toLowerCase();
 
-    const word = dictionary[query];
+    const results = [];
 
+    for (const [word, data] of Object.entries(dictionary)) {
+
+        // Match Eleued word
+        if (word.toLowerCase().includes(query)) {
+            results.push({ word, data });
+            continue;
+        }
+
+        // Match English meanings
+        if (
+            data.meanings.some(
+                meaning => meaning.toLowerCase().includes(query)
+            )
+        ) {
+            results.push({ word, data });
+            continue;
+        }  
+    }
+    localStorage.setItem("word", results)
+    
+    displayResults(results)
+}
+
+function displayResults(results) {
     const resultDiv = document.getElementById("result");
 
-    if (!word) {
-        resultDiv.innerHTML = "<p>Word not found.</p>";
+    if (results.length === 0) {
+        resultDiv.innerHTML = "<p>No matches found.</p>";
         return;
     }
 
-    resultDiv.innerHTML = `
-        <h2>${query}</h2>
-        <p><strong>Meaning:</strong> ${word.meaning}</p>
-        <p><strong>Related:</strong> ${word.related.join(", ")}</p>
-    `;
+    resultDiv.innerHTML = results.map(({ word, data }) => `
+        <div class="entry">
+            <h2>${word}</h2>
+            <p>Meaning: ${data.meanings.join(", ")}</p>
+            <p>Related words: ${data.related.join(", ")}</p>
+        </div>
+    `).join("");
 }
+
+window.addEventListener('load', (event) => {
+    if (!localStorage.getItem("word")) {
+        displayResults(localStorage.getItem("word"))
+    }
+});

@@ -2,12 +2,12 @@
     "words": {
         "afos": {
             "type": "noun-bc-n",
-            "meaning": "gold, money",
+            "meanings": ["gold", "money"],
             "related": ["rejal"]
         },
         "tila": {
             "type": "noun-fr-n",
-            "meaning": "house, nation",
+            "meanings": ["house", "nation"],
             "related": ["tilager", "memtila"],
             "examples": [
                 "Içer Elije hik tilatek"
