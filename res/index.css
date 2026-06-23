@@ -1,0 +1,38 @@
+@font-face {
+  font-family: EBGar; /* set name */
+  src: url("./res/EB_Garamond/EBGaramond-VariableFont_wght.ttf"); /* url of the font */
+  weight: 400;
+}
+
+@font-face {
+    font-family: EBGarIT;
+    src: url("./res/EB_Garamond/EBGaramond-Italic-VariableFont_wght.ttf");
+}
+
+html {
+    font-family: EBGar, serif;
+}
+
+h1 {
+    font-family: EBGarIt, serif;
+}
+
+body {
+  background:rgb(30, 31, 30);
+  width:700px;
+  border-style: double;
+  margin:auto;
+  color: white;
+  padding: 10px;
+}
+
+header {
+    border-style: double;
+    background:rgb(30, 31, 30);
+    padding: 10px;
+}
+
+a {
+  color: white;
+  font-style: italic;
+}
