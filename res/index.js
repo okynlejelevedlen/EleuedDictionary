@@ -2,7 +2,7 @@ let params = new URLSearchParams();
 
 let dictionary = {};
 
-fetch("words.json")
+fetch("https://okynlejelevedlen.github.io/EleuedDictionary/res/words.json")
     .then(response => response.json())
     .then(data => {
         dictionary = data.words;
